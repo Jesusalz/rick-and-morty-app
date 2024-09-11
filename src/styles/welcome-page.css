@@ -1,0 +1,32 @@
+.welcome-page-container{
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    overflow: hidden;
+}
+.landing-page-img-container{
+    width: 50%;
+}
+.landing-page-img-container img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+h2{
+    font-size: 2.3rem;
+}
+
+.welcome-page{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3em;
+}

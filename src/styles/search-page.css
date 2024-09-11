@@ -1,0 +1,53 @@
+.character-search-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.character-search {
+    margin-bottom: 20px;
+}
+
+.loading, .error {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.empty-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+
+.empty-search svg {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.empty-search p {
+    font-size: 18px;
+    color: #666;
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .character-search-page {
+        padding: 10px;
+    }
+
+    .empty-search {
+        height: 200px;
+    }
+
+    .empty-search p {
+        font-size: 16px;
+    }
+}
